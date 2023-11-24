@@ -14,8 +14,10 @@
 	<packaging>pom</packaging>
 	<name>course</name>
 	<description>Demo project for Spring Boot</description>
+	<!--maven父子模块配置：在子模块中使用parent标签指向父模块，在父模块中使用module标签引入子模块-->
 	<modules>
 		<module>eureka/eureka</module>
+		<module>system/system</module>
 	</modules>
 	<properties>
 		<java.version>1.8</java.version>
